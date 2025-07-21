@@ -30,7 +30,7 @@ const GraphicDesign = () => {
       title: "Morphix Solutions",
       category: "branding",
       description: "Complete brand identity for tech startup",
-      image: "/Morpix Solutions. USA.svg",
+      image: process.env.PUBLIC_URL + "/Morpix Solutions. USA.svg",
       color: "from-red-600 to-orange-600",
       tags: ["Logo Design", "Brand Guidelines", "Visual Identity"]
     },
@@ -39,7 +39,7 @@ const GraphicDesign = () => {
       title: "Green Initiatives",
       category: "branding",
       description: "Eco-friendly company brand redesign",
-      image: "/Safaah Associates Ltd. Riyadh.svg",
+      image: process.env.PUBLIC_URL + "/Safaah Associates Ltd. Riyadh.svg",
       color: "from-green-600 to-emerald-600",
       tags: ["Logo", "Sustainability", "Brand Strategy"]
     },
@@ -48,7 +48,7 @@ const GraphicDesign = () => {
       title: "Mega Engineering",
       category: "branding",
       description: "Industrial company visual identity",
-      image: "/Mega Engineering Solution Pvt Ltd, PK.svg",
+      image: process.env.PUBLIC_URL + "/Mega Engineering Solution Pvt Ltd, PK.svg",
       color: "from-blue-600 to-indigo-600",
       tags: ["Corporate Identity", "Logo Design"]
     },
@@ -57,7 +57,7 @@ const GraphicDesign = () => {
       title: "DSD Recruitment",
       category: "branding",
       description: "Employee Recruitment Company",
-      image: "/DSD Recruitment, PK.svg",
+      image: process.env.PUBLIC_URL + "/DSD Recruitment, PK.svg",
       color: "from-purple-600 to-pink-600",
       tags: ["Food Industry", "Brand Design"]
     },
@@ -66,7 +66,7 @@ const GraphicDesign = () => {
       title: "Macedonia Pizza",
       category: "branding",
       description: "Pizzeria brand identity and packaging",
-      image: "/Macedonia Pizza Ltd Islamabad. PK.svg",
+      image: process.env.PUBLIC_URL + "/Macedonia Pizza Ltd Islamabad. PK.svg",
       color: "from-red-600 to-yellow-600",
       tags: ["Restaurant", "Packaging", "Logo"]
     },
@@ -75,7 +75,7 @@ const GraphicDesign = () => {
       title: "TrendyShe",
       category: "branding",
       description: "Fashion brand visual identity",
-      image: "/TredyShe Ecommerce Store, PK.svg",
+      image: process.env.PUBLIC_URL + "/TredyShe Ecommerce Store, PK.svg",
       color: "from-pink-600 to-rose-600",
       tags: ["Fashion", "Lifestyle", "Branding"]
     },
@@ -84,7 +84,7 @@ const GraphicDesign = () => {
       title: "Expressive Edge",
       category: "branding",
       description: "Creative agency brand guidelines",
-      image: "/Expressive Edge Blogging Website.svg",
+      image: process.env.PUBLIC_URL + "/Expressive Edge Blogging Website.svg",
       color: "from-amber-600 to-orange-600",
       tags: ["Agency", "Creative", "Guidelines"]
     },
@@ -94,7 +94,7 @@ const GraphicDesign = () => {
       title: "Roof Masters Campaign",
       category: "social",
       description: "Social media campaign for roofing company",
-      image: "/Roof.svg",
+      image: process.env.PUBLIC_URL + "/Roof.svg",
       color: "from-blue-600 to-cyan-600",
       tags: ["Social Media", "Campaign", "Marketing"]
     },
@@ -103,7 +103,7 @@ const GraphicDesign = () => {
       title: "Media Initiation Posts",
       category: "social",
       description: "Digital marketing agency social presence",
-      image: "/Media.svg",
+      image: process.env.PUBLIC_URL + "/Media.svg",
       color: "from-purple-600 to-blue-600",
       tags: ["Instagram", "LinkedIn", "Content"]
     },
@@ -113,7 +113,7 @@ const GraphicDesign = () => {
       title: "Royal Hotels Brochure",
       category: "print",
       description: "Luxury hotel chain marketing materials",
-      image: "/Custom.svg",
+      image: process.env.PUBLIC_URL + "/Custom.svg",
       color: "from-amber-600 to-yellow-600",
       tags: ["Brochure", "Print", "Hospitality"]
     },
@@ -122,7 +122,7 @@ const GraphicDesign = () => {
       title: "Metal Masters Flyer",
       category: "print",
       description: "Industrial company promotional design",
-      image: "/Line & Shape Builders Pvt Ltd PK.svg",
+      image: process.env.PUBLIC_URL + "/Line & Shape Builders Pvt Ltd PK.svg",
       color: "from-gray-600 to-gray-800",
       tags: ["Flyer", "Industrial", "Marketing"]
     },
@@ -131,7 +131,7 @@ const GraphicDesign = () => {
       title: "Strategy Mobile App",
       category: "digital",
       description: "UI design for business strategy app",
-      image: "/Triangle.svg",
+      image: process.env.PUBLIC_URL + "/Triangle.svg",
       color: "from-indigo-600 to-purple-600",
       tags: ["Mobile UI", "App Design", "Strategy"]
     }

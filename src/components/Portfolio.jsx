@@ -386,7 +386,7 @@ const Portfolio = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
             <div className="relative aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-purple-900 to-pink-900">
               <img 
-                src="/profile.jpg" 
+                src={process.env.PUBLIC_URL + "/profile.jpg"} 
                 alt="Abdullah Suhayl" 
                 className="w-full h-full object-cover"
                 onError={(e) => {
