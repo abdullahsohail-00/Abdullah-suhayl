@@ -13,7 +13,7 @@ const Portfolio = () => {
       id: 0,
       title: "Professional Experience",
       description: "My career journey, achievements, and professional milestones in design and development",
-      link: "/experience",
+      link: "Abdullah-suhayl/experience",
       techStack: ["Leadership", "Project Management", "Team Collaboration"],
       icon: () => (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ const Portfolio = () => {
       id: 1,
       title: "Data Analysis Portfolio",
       description: "Interactive dashboards and insightful data visualizations showcasing analytics expertise",
-      link: "/data-analysis",
+      link: "Abdullah-suhayl/data-analysis",
       techStack: ["Python", "Tableau", "Power BI", "SQL"],
       icon: () => (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ const Portfolio = () => {
       id: 2,
       title: "Websites Portfolio",
       description: "Modern, responsive websites built with cutting-edge technologies and best practices",
-      link: "/websites",
+      link: "Abdullah-suhayl/websites",
       techStack: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
       icon: () => (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -55,7 +55,7 @@ const Portfolio = () => {
       id: 3,
       title: "Experiments Lab",
       description: "Creative coding experiments, interactive demos, and learning projects",
-      link: "/playground",
+      link: "Abdullah-suhayl/playground",
       techStack: ["Three.js", "WebGL", "Creative Coding"],
       icon: Beaker,
       gradient: "from-amber-600 to-yellow-500",
@@ -89,22 +89,13 @@ const Portfolio = () => {
       id: 6,
       title: "Graphic Design Work",
       description: "Brand identity, marketing materials, and creative visual storytelling",
-      link: "/graphic-design",
+      link: "Abdullah-suhayl/graphic-design",
       techStack: ["Illustrator", "Photoshop", "InDesign"],
       icon: Brush,
       gradient: "from-pink-600 to-rose-500",
       shadowColor: "shadow-pink-500/25"
     },
-    {
-      id: 7,
-      title: "Photography Portfolio",
-      description: "Visual stories captured through my lens - landscapes, portraits, and urban photography",
-      link: "/photography",
-      techStack: ["Photography", "Lightroom", "Visual Storytelling"],
-      icon: Camera,
-      gradient: "from-purple-600 to-violet-600",
-      shadowColor: "shadow-purple-500/25"
-    }
+  
   ], []);
 
   // Loading animation
