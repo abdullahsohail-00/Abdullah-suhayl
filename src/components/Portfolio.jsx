@@ -13,7 +13,7 @@ const Portfolio = () => {
       id: 0,
       title: "Professional Experience",
       description: "My career journey, achievements, and professional milestones in design and development",
-      link: "Abdullah-suhayl/experience",
+      link: "/experience",
       techStack: ["Leadership", "Project Management", "Team Collaboration"],
       icon: () => (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ const Portfolio = () => {
       id: 1,
       title: "Data Analysis Portfolio",
       description: "Interactive dashboards and insightful data visualizations showcasing analytics expertise",
-      link: "Abdullah-suhayl/data-analysis",
+      link: "/data-analysis",
       techStack: ["Python", "Tableau", "Power BI", "SQL"],
       icon: () => (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ const Portfolio = () => {
       id: 2,
       title: "Websites Portfolio",
       description: "Modern, responsive websites built with cutting-edge technologies and best practices",
-      link: "Abdullah-suhayl/websites",
+      link: "/websites",
       techStack: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
       icon: () => (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -55,7 +55,7 @@ const Portfolio = () => {
       id: 3,
       title: "Experiments Lab",
       description: "Creative coding experiments, interactive demos, and learning projects",
-      link: "Abdullah-suhayl/playground",
+      link: "/playground",
       techStack: ["Three.js", "WebGL", "Creative Coding"],
       icon: Beaker,
       gradient: "from-amber-600 to-yellow-500",
@@ -89,7 +89,7 @@ const Portfolio = () => {
       id: 6,
       title: "Graphic Design Work",
       description: "Brand identity, marketing materials, and creative visual storytelling",
-      link: "Abdullah-suhayl/graphic-design",
+      link: "/graphic-design", 
       techStack: ["Illustrator", "Photoshop", "InDesign"],
       icon: Brush,
       gradient: "from-pink-600 to-rose-500",
